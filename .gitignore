@@ -1,0 +1,51 @@
+# Зависимости
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+lerna-debug.log
+
+# Сборка
+.next/
+out/
+build/
+
+# Локальные файлы окружения
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи
+logs/
+*.log
+*.log.*
+
+# Кэш
+.cache/
+.vercel/
+.now/
+
+# Временные файлы
+*.tsbuildinfo
+*.swp
+*.swo
+*.tmp
+
+# Тесты и покрытие
+coverage/
+*.lcov
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Дополнительные файлы
+dist/
+public/build/
